@@ -5,17 +5,48 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="assets/styles.css">
-  <title>Document</title>
+  <link rel="stylesheet" href="../assets/styles.css">
+  <title>Contact Page</title>
 </head>
 
 <body>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="https://twitter.com/BikashN42135012" target="_blank">Twitter</a></li>
-    <li><a href="https://github.com/b0n21en5" target="_blank">Github</a></li>
-    <li><a href="splittergame91@gmail.com" target="_blank">Gmail</a></li>
-  </ul>
+    <h1>My Contact Details</h1>
+    <table cellspacing="10">
+      <tr>
+        <th>Phone</th>
+        <td>9876543210</td>
+      </tr>
+      <tr>
+        <th>Social</th>
+        <td>
+          <a href="https://twitter.com/BikashN42135012" target="_blank">Twitter</a>
+          <a href="https://www.linkedin.com/in/bikash-nath-4851a5243/" target="_blank">linkedin</a>
+          <a href="https://github.com/b0n21en5" target="_blank">Github</a>
+        </td>
+      </tr>
+      <tr>
+        <th>Gmail</th>
+        <td>splittergame91@gmail.com</td>
+      </tr>
+    </table><br>
+    <div class="drop"><strong>Drop me a Message</strong></div>
+    <div class="box">
+      <form action="mailto:info@domainName.com" method="post" enctype="text/plain">
+        <label>Your Name:</label>
+        <input type="text" name="yourName" ><br><br>
+        <label>Your Email:</label>
+        <input type="email" name="yourEmail"><br><br>
+        <label>Type Message below:</label><br>
+        <textarea name="msg" rows="5" cols="30">Hey there!</textarea><br><br>
+        <input type="file" name="attach" value="at_file"><br><br>
+        <input type="submit" name="submit" id="submit" value="Submit">
+      </form>
+    </div>
+
+
+    <br>
+    <a href="../index.html">Go back to Home</a>
+
 </body>
 
 </html>
