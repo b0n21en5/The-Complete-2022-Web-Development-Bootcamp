@@ -8,3 +8,20 @@ ul li {
   list-style: none;
   margin: 0 22px;
 }
+
+th{
+  vertical-align: top;
+}
+
+.box{
+  padding-left: 7px;
+  padding-top: 7px;
+  width: 250px;
+  height: 275px;
+  border: 1px solid black;
+}
+
+
+.drop{
+  padding-left: 55px;
+}
